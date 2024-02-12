@@ -1,0 +1,31 @@
+$primary: #4CAF50;
+$secondary: #175a7a;
+$active: #174d67;
+$white: #FFFFFF;
+$black: #000000;
+
+$spacer: 8px;
+
+$transition-background: background-color .2s ease;
+
+$container-max-widths: (
+        we: 568px,
+        sm: 768px,
+        md: 768px,
+        lg: 768px,
+        xl: 1024px,
+        xxl: 1280px
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        we: 420px,
+        sm: 568px,
+        md: 768px,
+        lg: 1024px,
+        xl: 1280px,
+        xxl: 1440px
+);
+
+@import "functions";
+@import "mixins";
